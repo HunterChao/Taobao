@@ -1,0 +1,12 @@
+use `taobao_db`;
+drop table if exists `address`;
+create table `address`(
+   `goods_id` varchar(50) not null,
+   `shop_id` varchar(50),
+   `shop_loc` varchar(50),
+   `shop_name` varchar(50),
+   `goods_title` varchar(50),
+   `view_sales` varchar(50),
+   `view_price` varchar(20),
+   `comment_url` varchar(50),
+    primary key(`goods_id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8;
