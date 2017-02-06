@@ -3,6 +3,6 @@ mysql.txt是数据库配置文件，共设置8个字段。goods_id：商品id号
 ####2、抓取规则
 程序从连衣裙类型页面作为爬取首页，根据抓取的店铺id号和商品id号进入二级页面抓取信息，根据从二级页面提取到的店铺id号和商品id号进行下一级抓取；<br>
 ####3、程序调用
-api.py为接口，程序从_init_.py运行；<br>
+api.py为接口，程序从 __init__.py运行；<br>
 <br>抓取示例：<br>
 ![](https://github.com/HunterChao/Taobao/blob/master/Taobao/mysql.png)
